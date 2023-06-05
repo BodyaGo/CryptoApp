@@ -37,12 +37,10 @@ markdown
 
 npm start
 
-markdown
-
 
 4. Open the application in your browser:
 
-http://localhost:3000
+http://localhost:3001/home
 
 
 ## Contributing
