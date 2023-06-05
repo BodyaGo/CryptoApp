@@ -30,13 +30,9 @@ git clone https://github.com/BodyaGo/CryptoApp.git
 cd cryptocurrency-tracker
 npm install
 
-markdown
-
-
 3. Start the development server:
 
 npm start
-
 
 4. Open the application in your browser:
 
