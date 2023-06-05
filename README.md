@@ -1,6 +1,6 @@
 # Cryptocurrency Tracker
 
-Cryptocurrency Tracker is a web application that allows you to explore and track information about various cryptocurrencies. It provides real-time data on cryptocurrency prices, market capitalization, and 24-hour price changes. You can also search for specific cryptocurrencies and add them to your favorites list for easy access.
+Cryptocurrency Tracker is a web application that allows you to explore and track information about various cryptocurrencies. It provides real-time data on cryptocurrency prices, market capitalization, and 24-hour price changes. You can also search for specific cryptocurrencies and add them to your favorites list for easy access. 
 
 ## Features
 
