@@ -1,0 +1,93 @@
+.container {
+    min-height: calc(100vh - 200px); /* adjust value as needed */
+    padding-bottom: 20px; /* add padding to bottom to create space for footer */
+  }
+  
+  .crypto-icon {
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-4px);
+    }
+    
+    .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .card-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+    }
+    
+    .text-danger {
+    color: red;
+    }
+    
+    .text-success {
+    color: green;
+    }
+    
+    .row-cols-lg-3 > .col {
+    max-width: 33.33%;
+    }
+    
+    @media screen and (max-width: 992px) {
+    .row-cols-lg-3 > .col {
+    max-width: 50%;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    .row-cols-md-2 > .col {
+    max-width: 50%;
+    }
+    }
+    
+    @media screen and (max-width: 576px) {
+    .row-cols-1 > .col {
+    max-width: 100%;
+    }
+    }
+    
+    .input-group {
+    margin-bottom: 20px;
+    }
+    
+    .form-control {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .btn {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1E90FF;
+    color: #fff;
+    transition: 0.3s;
+    }
+    
+    .btn:hover {
+    cursor: pointer;
+    background-color: #0066CC;
+    }

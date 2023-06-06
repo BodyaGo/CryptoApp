@@ -1,0 +1,118 @@
+/* крипта */
+
+.coin-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.coin-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.coin-info-details {
+  margin-left: 16px;
+}
+
+.coin-name {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.coin-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 8px;
+  margin-bottom: 16px;
+}
+
+.coin-stat {
+  display: flex;
+}
+
+.coin-label {
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.coin-value {
+  margin: 0;
+}
+
+.coin-categories {
+  margin-top: 16px;
+}
+
+.coin-categories .badge {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+
+
+
+
+/* графік */
+.chart-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.chart-container {
+  position: relative;
+}
+
+.chart-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.chart-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  outline: none;
+}
+
+.chart-button.active {
+  background-color: #555;
+  color: #fff;
+}
+
+.chart-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+
+
+/* опис */
+
+.description-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.coin-description {
+  margin: 0 -8px;
+}
+
+.description-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.description-content {
+  color: #555;
+  line-height: 1.5;
+}
