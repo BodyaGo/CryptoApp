@@ -74,3 +74,37 @@ th {
   height: auto;
   margin-bottom: 10px;
 }
+
+.coinlist-image {
+  width: 50px;
+}
+
+.coinlist-item {
+  display: flex;
+  position: relative; /* Add this line to make the delete button position relative */
+}
+
+.coinsummary {
+  border-color: white !important;
+  border-style: outset !important;
+}
+
+.coin-data-category {
+  font-size: 10px;
+}
+
+.delete-icon {
+  position: absolute; /* Update position to absolute */
+  right: 6px;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center the delete button vertically and horizontally */
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.coin:hover .delete-icon {
+  display: block;
+}

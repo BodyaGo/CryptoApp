@@ -1,0 +1,122 @@
+  /* .registration-box {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+
+  .registration-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .registration-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .registration-box input[type="text"],
+  .registration-box input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .registration-box button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .registration-box button:hover {
+    background-color: #3e8e41;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    text-align: left;
+  }
+
+  img {
+    max-width: 100%;
+  } */
+  .table {
+    font-size: 1.2rem;
+  }
+  
+  .crypto-icon {
+    margin-left: 0.5rem;
+  }
+
+  .chart-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .chart-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chart-legend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .chart-legend__label {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .chart-legend__dot--up {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .chart-legend__dot--down {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .chart-wrapper {
+      flex-direction: column;
+    }
+  
+    .chart-legend {
+      justify-content: center;
+    }
+  }
+  
+
+  
