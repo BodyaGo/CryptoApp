@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mysql = require("mysql2");
+
 const cors = require("cors");
 
 app.use(cors());
@@ -32,12 +33,50 @@ app.post("/create", (req, res) => {
   );
 });
 
+app.post("/login", (req, res) => {
+  const email = req.body.email;
+  const password = req.body.password;
+
+  db.query(
+    "SELECT * FROM users WHERE email = ? AND password = ?",
+    [email, password],
+    (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        if (result.length > 0) {
+          res.send({ message: "Login successful", user: result[0] });
+        } else {
+          res.status(401).send({ message: "Invalid credentials" });
+        }
+      }
+    }
+  );
+});
+
 app.get("/users", (req, res) => {
   db.query("SELECT * FROM users", (err, result) => {
     if (err) {
       console.log(err);
     } else {
       res.send(result);
+    }
+  });
+});
+
+app.post("/user-exists", (req, res) => {
+  const email = req.body.email;
+
+  db.query("SELECT * FROM users WHERE email = ?", [email], (err, results) => {
+    if (err) {
+      console.log(err);
+      res.status(500).send({ message: "Database error" });
+    } else {
+      if (results.length > 0) {
+        res.send({ exists: true });
+      } else {
+        res.send({ exists: false });
+      }
     }
   });
 });
